@@ -4,7 +4,7 @@ import numpy as np
 
 nLastStates = 4
 filepathToOpen = 'snake_model.keras'
-slowdown = 75
+slowdown = 5
 
 env = Environment(slowdown)
 brain = Brain((env.nRows, env.nColumns, nLastStates))
